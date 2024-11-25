@@ -63,7 +63,7 @@ a{
 } 
 
 /* contenuto di accesso */
-.button{
+.small-button{
     text-align:right;
     color:black;
     background-color:white ;
@@ -80,11 +80,14 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #00018b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    /* DEBUG */
+    /* background-color: #00018b; */
     padding:40px;
-    height:400px;
+    height:600px;
     width: 100%;
-    border:2px solid black;
+    /* border:2px solid black; */
 }
 
 /* contenuto prima sezione con sfondo blu*/
@@ -93,10 +96,34 @@ a{
     padding:150px;
     /* DEBUG */
     height:100%;
-    background-color: #ef82ed;
-    border:2px solid black;
+    /* background-color: #ef82ed; */
+    /* border:2px solid black; */
 }
 
+h1{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p{
+    color:white;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.big-button{
+    font-size:15px;
+    border-radius: 9999px;
+    padding: 10px 10px;
+}
+
+
+
+
+
+/* contenuti seconda sezione */
 .container-main{
     display: flex;
     justify-content: center;
